@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2 {
+    font-size: 3.2rem;
+    white-space: nowrap;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+p {
+    font-weight: 400;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6.6rem;
+    align-items: center;
+    position: fixed;
+    background: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+header #logo {
+    width: 50px;
+}
+
+header .logo p {
+    font-size: 1.33rem;
+    font-weight: 800;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    font-weight: 600;
+}
+
+/* This is the welcoming section */
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    padding: 6.6rem;
+    padding-top: 25vh;
+}
+
+.who-am-i {
+    font-size: 5.61rem;
+    line-height: calc(5.61rem);
+    margin-bottom: 2.4rem;
+}
+.hello {
+    font-size: 2.4rem;
+    display: block;
+    line-height: 3rem;
+}
+
+.welcome-button {
+    width: 100%;
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+button {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 45px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+    border: solid;
+    background-color: white;
+    cursor: pointer;;
+}
+button:hover {
+    background-color: #ddd;
+}
+.welcome-button button:first-of-type, #contact button {
+    background-color: #111;
+    color: #fff;
+    border: none;
+}
+.welcome-button button:first-of-type:hover {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+/* This is for projects section */
+.heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+
+.heading .line {
+    width: 100%;
+    height: 6px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: #111;
+}
+
+#projects {
+    width: 100%;
+    padding: 6rem 6.6rem;
+}
+.project-wrapper {
+    width: 100%;
+}
+
+.project-tile img {
+    width: 100%;
+    object-fit: contain;
+}
+.project-row {
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 4.2rem;
+}
+
+.project-tile:not(:first-child) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.highlighted {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    grid-column: span 3;
+}
+.highlighted img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.highlighted .project-content h3 {
+    font-size: 1.8rem;
+    line-height: 1.25;
+}
+
+.highlighted .project-content {
+    width: 50%;
+}
+.highlighted .project-content> *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.project-content {
+    line-height: 1.75;
+}
+
+.highlighted .project-content .category-and-date {
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.project-content h3 {
+    font-size: 1.3rem;
+}
+
+/* This is for Journey section */
+
+#journey, #contact {
+    width: 100%;
+    padding: 6.6rem 6.6rem 0 6.6rem;
+}
+.journey-list {
+    padding: 0 6.6rem;
+}
+.journey-list li {
+    margin: 3.2rem 0;
+    list-style-type:circle;
+    list-style: circle ;
+}
+
+.journey-list li p {
+    padding-bottom: 1rem;
+}
+.journey-list .journey-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.journey-list .journey-subtitle {
+    font-size: 1rem;
+}
+
+/* This is for about section */
+
+#about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 6.6rem auto 0;
+    padding: 4.2rem 13.2rem;
+    background-color: #F0F0EB;
+    gap: 5.6rem;
+    align-items: center;
+
+}
+
+#about .introduction h2 {
+    margin-bottom: 1rem;
+}
+#about img {
+    width: 40%;
+    height: 40%;
+    background-color: #C2F2DA;
+    border-radius: 1.3rem;
+    -webkit-border-radius: 1.3rem;
+    -moz-border-radius: 1.3rem;
+    -ms-border-radius: 1.3rem;
+    -o-border-radius: 1.3rem;
+}
+
+#about .introduction {
+    width: 50%;
+}
+
+.sign {
+    font-family: 'Fasthand';
+    font-size: 1.7rem;
+    line-height: 1.2;
+}
+
+#about .social-media {
+    display: flex;
+    list-style: none;
+    gap: 1.3rem;
+    padding: 1.3rem 0;
+}
+
+#about .social-media a {
+    font-size: 1.7rem;
+}
+
+/* For contact section */
+#contact #message-form input, textarea {
+    display: block;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border: 2px solid rgba(11, 11, 11, 0.3);
+    margin: 1rem 0rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+}
+
+footer {
+    padding: 3rem 6.6rem;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    margin-top: 6.6rem;
+}
+
+/* For responsive website */
+@media only screen and (max-width: 768px) {
+    header > .logo > p {
+        display: none;
+    }
+
+    .who-am-i {
+        font-size: 4.2rem;
+        line-height: 1;
+    }
+    .heading h2 {
+        font-size: 2.3rem;
+    }
+    .highlighted .project-content h3 {
+        font-size: 1.7rem;
+    }
+    .project-row .project-tile .project-content h3 {
+        font-size: 1.3rem;
+    }
+    .highlighted {
+        flex-direction: column;
+    }
+    .highlighted .project-content, .highlighted img {
+        width: 100%;
+    }
+
+    .project-row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    #journey .journey-list {
+        padding: 0;
+    }
+
+    #about {
+        flex-direction: column-reverse;
+        padding: 6.6rem;
+        gap: 2rem;
+    }
+
+    #about .introduction, #about img {
+        width: 100%;
+    }
+
+    #contact #message-form input {
+        width: 100%;
+    }
+}
