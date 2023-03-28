@@ -5,156 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/39a854cbd3.js" crossorigin="anonymous"></script>
     <title>Dede's Portfolio</title>
+    <style>
+        * {
+            border: 1px solid black;
+        }
+    </style>
 </head>
-<body>
-    <header id="header">
-        <nav id="navbar">
-            <div class="logo">
-            <img src="https://iili.io/Hhqucjj.png" alt="Dede's Logo" id="logo">
-            <p>DedeKurnn.</p>
+<body class="font-plusjakarta">
+    <!-- Beginning of hero section -->
+    <section id="home" class="pt-36  h-screen">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4">
+                    <h1 class="text-base font-medium">Hi 👋 I'm a <span class="text-5xl block font-bold -m-0.5 text-dark">UI/UX Designer</span></h1>
+                    <p class="pt-2 mt-4 text-sm text-slate-600 leading-relaxed sm:text-base">I empathize, analyze, design, make prototype, receive feedback, then repeat.</p>
+                </div>
+            </div>
         </div>
-            <ul class="nav-list">
-                <li><a href="#welcome-section">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#journey">Journey</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- This is the welcoming section -->
-        <section id="welcome-section">
-            <h1 class="who-am-i"><span class="hello">Hi, I'm a</span>UI/UX Designer</h1>
-            <p class="description">I empathize, analyze, design, make prototype, receive feedback, then repeat.</p>
-            <div class="welcome-button">
-                <button id="contact-me" href="#contacts">Contact Me</button>
-                <button id="download-cv">Download CV</button>
+    </section>
+    <section id="about-me">
+        <div class="container p-4 py-10 sm:flex sm:gap-8 sm:flex-row-reverse mx-auto">
+            <div class="bg-teal-300 rounded-2xl group overflow-hidden hover:rounded-3xl transition-all duration-500 sm:w-1/2  ">
+                <img class="group-hover:scale-105 transition-all duration-300 w-100" src="https://iili.io/HhquX8F.png" alt="Dede's Photo">
             </div>
-        </section>
-        <!-- This is project section, which contains Dede's highlighted project -->
-        <section id="projects">
-            <div class="heading">
-                <h2>Projects</h2>
-                <div class="line"></div>
-            </div>
-            <div class="project-wrapper">
-                <div class="project-tile highlighted">
-                    <img src="https://iili.io/Hhqu1CQ.png" alt="SusterKu - Mobile App Design for Hiring Baby Sitter" class="project-preview">
-                    <div class="project-content">
-                        <h3>SusterKu - Mobile App Design for Hiring Baby Sitter</h3>
-                        <p class="category-and-date">UI/UX Design - 2022</p>
-                        <p class="description">There is a growing need for reliable and trustworthy babysitters, especially for parents who work long hours or have busy schedules. To address this problem, we developed a babysitter hiring app that allows parents to easily find and hire qualified and reliable babysitters in their local area. </p>
-                        <a class="read-more" href="https://www.behance.net/gallery/159393015/UIUX-Design-Portfolio-2022">Read More</a>
-                    </div>
+            <div class="sm:w-1/2">
+                <div>
+                    <h1 class="text-3xl font-extrabold mt-4 mb-2 text-dark">Hi, It's Dede</h1>
+                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">I’m a second year Informatics Engineering student in Lampung University. I love creating things that did not exist into existence. I love design, build, and deploy.
+                    Read more about me or ask me anything.
+                    <br><br>
+                    Enjoy your visit! </p>
+                    <p class="font-fasthand text-2xl -mt-1">Dede Kurniawan</p>
                 </div>
-                <div class="project-row">
-                    <div class="project-tile">
-                        <img src="https://iili.io/HhquEGV.png" alt="Nike Store Website Design" class="project-preview">
-                        <div class="project-content">
-                            <h3>Nike Store Website Design</h3>
-                            <p class="category-and-date">Web Design - 2023</p>
-                        </div>
-                    </div>
-                    <div class="project-tile">
-                        <img src="https://iili.io/HhquG6B.png" alt="Covedia Website Design" class="project-preview">
-                        <div class="project-content">
-                            <h3>Covedia Website Design</h3>
-                            <p class="category-and-date">Web Design - 2020</p>
-                        </div>
-                    </div>
-                    <div class="project-tile">
-                        <img src="https://iili.io/HhquV3P.png" alt="MyBioskop App Design" class="project-preview">
-                        <div class="project-content">
-                            <h3>My Bioskop App Design</h3>
-                            <p class="category-and-date">UI/UX Design - 2022</p>
-                        </div>
-                    </div>
+                <div class="flex flex-wrap flex-col gap-2 mt-4">
+                    <button class="btn-primary">Contact Me</button>
+                    <button class="btn-secondary">Download CV</button>
                 </div>
             </div>
-        </section>
-        <section id="journey">
-            <div class="heading">
-                <h2>Journey</h2>
-                <div class="line"></div>
-            </div>
-            <ul class="journey-list">
-                <li>
-                    <p class="jourey-date">2022 - Now</p>
-                    <p class="journey-title">Working on UI/UX Design Projects, and Website Projects.</p>
-                    <p class="journey-subtitle">Learning new things to improve my skills. </p>
-                </li>
-                <li>
-                    <p class="jourey-date">2022</p>
-                    <p class="journey-title">Pass Google UX Design Foundation Course</p>
-                    <p class="journey-subtitle">Taken Google UX Designer Foundation Course at Coursera and pass with 80% score. </p>
-                </li>
-                <li>
-                    <p class="jourey-date">2021</p>
-                    <p class="journey-title">Certified Junior Web Developer</p>
-                    <p class="journey-subtitle">Certified by Indonesian Ministry of Communication and Informatics in Junior Web Developer.</p>
-                </li>
-                <li>
-                    <p class="jourey-date">2021</p>
-                    <p class="journey-title">Certified Junior Graphic Designer</p>
-                    <p class="journey-subtitle">Certified by Indonesian Ministry of Communication and Informatics in Junior Graphic Designer.</p>
-                </li>
-                <li>
-                    <p class="jourey-date">2019 - Now</p>
-                    <p class="journey-title">Freelance Graphic Designer at Fiverr</p>
-                    <p class="journey-subtitle">From my love of Minecraft, I started my career working as freelance graphic designer at Fiverr selling Minecraft related graphic.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- This is about me section -->
-        <section id="about">
-            <div class="introduction">
-                <h2>
-                    Hi, It's Dede
-                </h2>
-                <p class="description">
-                    I’m a second year Informatics Engineering student in Lampung University. I love creating things that did not exist into existence. I love design, build, and deploy.
-                    <br><br>
-                    Read more about me or ask me anything. 
-                    <br><br>
-                    Enjoy your visit!
-                    <br>
-                    <span class="sign">Dede Kurniawan</span>
-                </p>
-                <ul class="social-media">
-                    <li><a href="https://www.behance.net/dedekurnn" target="_blank"><i class="fa-brands fa-behance"></i></a></li>
-                    <li><a href="https://dribbble.com/DaikyKurn"><i class="fa-brands fa-dribbble"></i></a></li>
-                    <li><a href="http://github.com/DedeKurnn" id="profile-link" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/dede-kurniawan123/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                    <li><a href="http://instagram.com/dede_kurnn"><i class="fa-brands fa-instagram"></i></a></li>
-
-                </ul>
-            </div>
-            <img src="https://iili.io/HhquX8F.png" alt="Dede's photo">
-        </section>
-        <!-- This is contact section -->
-        <section id="contact">
-            <div class="heading">
-                <h2>Contact Me</h2>
-                <div class="line"></div>
-            </div>
-            <h3>dedekurnn@outlook.com</h3>
-            <p>Let's get in touch!</p>
-            <form action="mailto:dedekurnn@outlook.com" method="post" id="message-form">
-                <input type="text" name="title" id="mail-title" placeholder="Hi, I'd like to...">
-                <textarea name="message" id="message" cols="30" rows="5" placeholder="Write something here..."></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>Copyright 2023 &#169; Dede Kurniawan</p>
-    </footer>
+        </div>
+    </section>
+    <!-- End of hero section -->
 </body>
 </html>
