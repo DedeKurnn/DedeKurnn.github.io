@@ -1,0 +1,64 @@
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+.profilePicture {
+    clip-path: url(#clip);
+    object-fit: cover;
+    aspect-ratio: 4/5;
+    position: relative;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+    .profilePicture {
+        width: 70%;
+    }
+    .chat {
+        width: 40%;
+    }
+    .rect2, .rect3 {
+        width: 40%;
+    }
+    .rect1 {
+        width: 14%;
+    }
+
+
+.rect1, .rect2, .rect3, .chat {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.rect2 {
+    z-index: 1;
+    top: 20%;
+    right: 50%;
+}
+
+.rect1 {
+    bottom: -3%;
+    right: 13%;
+}
+
+.rect3 {
+    z-index: 1;
+    bottom: 5%;
+    right: 5%;
+}
+
+.chat {
+    top: 65%;
+    right: 60%;
+    z-index: 3;
+}
