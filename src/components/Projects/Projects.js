@@ -51,13 +51,13 @@ const Projects = () => {
           <h2 className="text-4xl font-semibold mb-8">
             Lampung University Website Redesign
           </h2>
-          <p className="mb-8 font-medium">
+          <p className="mb-8">
             This website is developed as final exam project for Web Programming
             course at Informatics Engineering department of Lampung University.
             You can read the case study and live demo of the project by clicking
             the link below.
           </p>
-          <span className="block">
+          <span className="block dark:text-white dark:opacity-75">
             <a
               href="#"
               className="font-semibold opacity-60 hover:opacity-100 hover:text-primary-darker underline"

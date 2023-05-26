@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    @apply transition-colors duration-150;
+  }
+  body {
+    @apply dark:bg-background-dark;
+  }
   p {
-    @apply font-plusJakarta text-base md:text-lg font-medium;
+    @apply font-plusJakarta text-base dark:text-white dark:opacity-75 md:text-lg font-normal;
   }
   h1 {
-    @apply text-4xl md:text-6xl font-semibold;
+    @apply text-4xl md:text-6xl font-semibold dark:text-white;
+  }
+  h2, h3, h4 {
+    @apply dark:text-white;
+  }
+  a {
+    @apply dark:text-white;
   }
 }
 

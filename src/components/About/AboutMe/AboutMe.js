@@ -17,7 +17,7 @@ const AboutMe = (props) => {
         <div>
           <Label>AboutMe</Label>
           <h1 className="mb-8">HI! IT'S DEDE</h1>
-          <p className="font-medium">
+          <p>
             I’m a second year Informatics Engineering student in Lampung
             University. I love creating things that did not exist into
             existence. I love design, build, and deploy. Read more about me or
@@ -26,19 +26,19 @@ const AboutMe = (props) => {
         </div>
         <div className="flex items-center flex-wrap justify-start gap-4 mt-8">
           <a href="https://behance.net/dedekurnn">
-            <Behance className="w-full max-w-[42px] h-full object-contain" />
+            <Behance className="w-full max-w-[42px] h-full object-contain hover:text-primary-darker" />
           </a>
           <a href="https://dribbble.com/DaikyKurn">
-            <Dribbble className="w-full max-w-[42px] h-full object-contain" />
+            <Dribbble className="w-full max-w-[42px] h-full object-contain hover:text-primary-darker" />
           </a>
           <a href="https://github.com/dedekurnn">
-            <Github className="w-full max-w-[42px] h-full object-contain" />
+            <Github className="w-full max-w-[42px] h-full object-contain hover:text-primary-darker" />
           </a>
           <a href="https://instagram.com/dede_kurnn">
-            <Instagram className="w-full max-w-[42px] h-full object-contain" />
+            <Instagram className="w-full max-w-[42px] h-full object-contain hover:text-primary-darker" />
           </a>
           <a href="https://linkedin.com/in/dede-kurniawan-123">
-            <Linkedin className="w-full max-w-[42px] h-full object-contain" />
+            <Linkedin className="w-full max-w-[42px] h-full object-contain hover:text-primary-darker" />
           </a>
         </div>
       </div>

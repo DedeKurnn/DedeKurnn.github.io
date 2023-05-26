@@ -10,7 +10,7 @@ const Card = (props) => {
         />
       </div>
       <div className="mt-4 px-2">
-        <span className="block text-xl font-semibold">{props.title}</span>
+        <span className="block text-xl font-semibold dark:text-white">{props.title}</span>
         <a href={props.link} className="font-semibold opacity-60 hover:opacity-100 hover:text-primary-darker underline">Read more</a>
       </div>
     </div>

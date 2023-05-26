@@ -22,17 +22,17 @@ const Hero = () => {
         <h1 className="text-7xl lg:text-8xl leading-none font-plusJakarta font-bold mb-8">
           <span className="block">
             {tagline1.split("").map((char, index) => {
-              return <span key={char + "-" + index} className="hover:text-primary-darker transition-all duration-300">{char}</span>;
+              return <span key={char + "-" + index} className={`hover:text-primary-darker transition-all duration-300`}>{char}</span>;
             })}
           </span>
           <span className="block">
             {tagline2.split("").map((char, index) => {
-              return <span key={char + "-" + index} className="hover:text-primary-darker transition-all duration-300">{char}</span>;
+              return <span key={char + "-" + index} className={`hover:text-primary-darker transition-all duration-300`}>{char}</span>;
             })}
           </span>
           <span className="block">
             {tagline3.split("").map((char, index) => {
-              return <span key={char + "-" + index} className="hover:text-primary-darker transition-all duration-300">{char}</span>;
+              return <span key={char + "-" + index} className={`hover:text-primary-darker transition-all duration-300`}>{char}</span>;
             })}
           </span>
         </h1>

@@ -3,6 +3,7 @@ import styles from "./Hero.module.css";
 import { motion } from "framer-motion";
 
 const HeroImages = (props) => {
+
   const iconChat = {
     hidden: {
       opacity: 0,
@@ -112,8 +113,8 @@ const HeroImages = (props) => {
               width="263"
               height="144"
               rx="22.5"
-              stroke="black"
-              strokeOpacity="0.4"
+              stroke="#5039BC"
+              strokeOpacity="0.7"
               strokeWidth="3"
               variants={iconRect}
               initial="hidden"
@@ -137,8 +138,8 @@ const HeroImages = (props) => {
               width="263"
               height="144"
               rx="22.5"
-              stroke="black"
-              strokeOpacity="0.4"
+              stroke="#5039BC"
+              strokeOpacity="0.7"
               strokeWidth="3"
               variants={iconRect}
               initial="hidden"

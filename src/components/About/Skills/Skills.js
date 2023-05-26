@@ -4,16 +4,16 @@ import {Invision, Css3, Html5, ReactLogo, Javascript, TailwindCss} from "@styled
 
 const Skills = props => {
     return (
-        <Container className="grid grid-cols-3 grid-rows-3 gap-8 md:gap-12 w-full mx-auto">
-            <Adobephotoshop className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <Figma className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <Invision className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <Html5 className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <Css3 className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <Javascript className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <Typescript className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <ReactLogo className="w-full max-w-[56px] h-full object-contain mx-auto"/>
-            <TailwindCss className="w-full max-w-[56px] h-full object-contain mx-auto"/>
+        <Container className="grid grid-cols-3 grid-rows-3 gap-8 md:gap-12 w-full mx-auto dark:text-primary-darker">
+            <Adobephotoshop className="w-full max-w-[56px] h-full object-contain mx-auto scale-[.85] hover:text-secondary-darker"/>
+            <Figma className="w-full max-w-[56px] h-full object-contain mx-auto scale-[.80] hover:text-secondary-darker"/>
+            <Invision className="w-full max-w-[56px] h-full object-contain mx-auto hover:text-secondary-darker"/>
+            <Html5 className="w-full max-w-[56px] h-full object-contain mx-auto hover:text-secondary-darker"/>
+            <Css3 className="w-full max-w-[56px] h-full object-contain mx-auto hover:text-secondary-darker"/>
+            <Javascript className="w-full max-w-[56px] h-full object-contain mx-auto hover:text-secondary-darker"/>
+            <Typescript className="w-full max-w-[56px] h-full object-contain mx-auto scale-[.80] hover:text-secondary-darker"/>
+            <ReactLogo className="w-full max-w-[56px] h-full object-contain mx-auto hover:text-secondary-darker"/>
+            <TailwindCss className="w-full max-w-[56px] h-full object-contain mx-auto hover:text-secondary-darker"/>
         </Container>
     )
 }
