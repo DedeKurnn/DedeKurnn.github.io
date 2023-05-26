@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e12ef2d4.css",
+    "main.js": "/static/js/main.c0edfe41.js",
+    "static/media/dede-photo.png": "/static/media/dede-photo.11be0987ae7b5e9707d1.png",
+    "static/media/OC.png": "/static/media/OC.2b2b93bda600d521d160.png",
+    "static/media/butterfly.png": "/static/media/butterfly.8e05cbeb5677209a1f99.png",
+    "static/media/sakai-sambayan.png": "/static/media/sakai-sambayan.4574dbd2568711bba354.png",
+    "static/media/Unila_Web_Redesign.png": "/static/media/Unila_Web_Redesign.de9b2101312a37341b4d.png",
+    "static/media/susterku.png": "/static/media/susterku.13438e6088ffe094b5db.png",
+    "static/media/logo-dike-hitam.svg": "/static/media/logo-dike-hitam.4f40d7b71f4558119f794bb2485ad728.svg",
+    "index.html": "/index.html",
+    "main.e12ef2d4.css.map": "/static/css/main.e12ef2d4.css.map",
+    "main.c0edfe41.js.map": "/static/js/main.c0edfe41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e12ef2d4.css",
+    "static/js/main.c0edfe41.js"
+  ]
+}
